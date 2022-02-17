@@ -1,0 +1,50 @@
+
+html,body{
+  height:100%;
+}
+
+.container{
+  width:100%;
+  padding: 2% 5%;
+}
+
+.lista{
+  padding: 2% 0 10% 0;
+}
+
+.card{
+  transition: transform 3ms ease-in-out;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.10);
+  box-shadow: 8px 8px 0 rgba(204, 204, 204, 0.286);
+  z-index: 1;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+form{
+  border: 1px solid #888;
+  background-color: #f0f0ed;
+  padding: 15px 2%;
+  border-radius:20px;
+}
+
+input{
+  transition: transform 3ms ease-in-out;
+}
+
+input:focus{
+  transform: scale(1.04);
+  z-index: 1;
+}
+
+button{
+  margin-top: 15px;
+}
+
