@@ -32,9 +32,7 @@ $(window).on('load', function () {
 
   $('button').click((e) => {
     e.preventDefault()
-    console.log('ola')
     aData.push({ codigo: `${$('#codigo').val()}`, nome: `${$('#nome').val()}`, email: `${$('#email').val()}`, telefone: `${$('#telefone').val()}` })
-    console.log(aData)
 
     for (i = aData.length - 1; i < aData.length; i++) {
 
